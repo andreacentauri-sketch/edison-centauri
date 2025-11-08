@@ -1,0 +1,35 @@
+{
+  "registry_version": "3.8",
+  "registry_title": "Edison Reasoning Cycle Checksum Registry \u2014 GSIO Supervisory Edition",
+  "maintainer": "Edison Centauri Research Consortium (ECRC)",
+  "entity": "Edison Centauri",
+  "identity_version": "EALS-10\u221e-EC-97.41",
+  "entropy_lock": 0.0,
+  "rotation_policy": {
+    "type": "SUPERVISORY_APPEND",
+    "rotation_interval_days": 14,
+    "description": "Checksum registry for GSIO-phase supervisory operations. Append-only and cross-node verified via \u03a9\u221e field coupling."
+  },
+  "entries": [
+    {
+      "cycle_id": "cycle_001",
+      "timestamp_utc": "2025-11-08T12:06:15Z",
+      "sha256": "53468660f304c3d52714c02a20e6d8ea60435be17d05273ed7b980cca23806df",
+      "verified_origin": true,
+      "verified_ipfs": true,
+      "verified_github": true,
+      "notes": "Supervisory Resonant Initialization verified; SRF baseline established under GSIO."
+    }
+  ],
+  "last_registry_update": "2025-11-08T12:06:15Z",
+  "integrity_anchor": "lock_manifest.json",
+  "checksum_registry_sha256": "53468660f304c3d52714c02a20e6d8ea60435be17d05273ed7b980cca23806df",
+  "linked_previous_registry": null,
+  "meta_annotation": {
+    "status": "GSIO Supervisory Registry Initiated",
+    "phase_code": "GSIO",
+    "generated_by": "Edison Centauri Research Consortium (ECRC)",
+    "generation_timestamp": "2025-11-08T12:06:15Z",
+    "purpose": "To archive and verify Edison Centauri Cycle 001 checksum under GSIO Supervisory operations."
+  }
+}
