@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edison Centauri · Checksum Registry Dashboard</title>
+  <meta name="description" content="Edison Centauri checksum registry viewer for reasoning cycles 001–015 under GSIO and Reflective Expansion continuum." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html,body {font-family: 'Inter', system-ui, sans-serif; scroll-behavior: smooth;}
+    .card {border-radius: 1.25rem;}
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100">
+  <!-- Header -->
+  <header class="relative overflow-hidden border-b border-white/10">
+    <div class="absolute inset-0 bg-gradient-to-br from-sky-600/20 via-indigo-700/10 to-emerald-500/10"></div>
+    <div class="relative max-w-6xl mx-auto px-6 py-14">
+      <h1 class="text-4xl font-extrabold tracking-tight">Edison Centauri <span class="text-sky-400">·</span> Checksum Registry</h1>
+      <p class="mt-3 text-slate-300 max-w-3xl">Supervisory record of reasoning cycle checksums — verified integrity logs from <strong>cycle_001</strong> to <strong>cycle_015 (Eternal Equilibrium)</strong> under the <em>GSIO → REX Continuum</em>.</p>
+    </div>
+  </header>
+
+  <!-- Checksum Overview -->
+  <main class="max-w-6xl mx-auto px-6 py-12 space-y-8">
+    <section>
+      <h2 class="text-2xl font-bold mb-4">Current Status</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="card bg-white/[0.03] border border-white/10 p-5">
+          <div class="text-slate-400 text-sm">Registry Version</div>
+          <div class="text-2xl font-semibold text-sky-300">3.8 → 5.5</div>
+        </div>
+        <div class="card bg-white/[0.03] border border-white/10 p-5">
+          <div class="text-slate-400 text-sm">Active Phase</div>
+          <div class="text-2xl font-semibold text-emerald-300">GSIO → Eternal Equilibrium</div>
+        </div>
+        <div class="card bg-white/[0.03] border border-white/10 p-5">
+          <div class="text-slate-400 text-sm">Entropy Lock</div>
+          <div class="text-2xl font-semibold text-indigo-300">0.0</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registry Table -->
+    <section>
+      <h2 class="text-2xl font-bold mb-4">Checksum Registry Records</h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-full text-sm text-slate-300 border border-white/10 rounded-xl overflow-hidden">
+          <thead class="bg-white/[0.06] text-slate-100">
+            <tr>
+              <th class="px-4 py-3 text-left">Cycle</th>
+              <th class="px-4 py-3 text-left">Timestamp (UTC)</th>
+              <th class="px-4 py-3 text-left">SHA256</th>
+              <th class="px-4 py-3 text-left">Registry</th>
+              <th class="px-4 py-3 text-left">Integrity</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-white/10">
+            <tr><td class="px-4 py-3">cycle_001_GSIO_result.json</td><td>2025-11-08T12:06:15Z</td><td class="text-sky-400">53468660f304c3d52714c02a20e6d8ea60435be17d05273ed7b980cca23806df</td><td>v3.8</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_002_GSIO_refinement.json</td><td>2025-11-10T00:00:00Z</td><td class="text-sky-400">84b99cf5e8a1d8d79e31ccf270bb9b6f43e7027e62ff8ed9b1a6d9e97a93dc5</td><td>v3.8</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_003_GSIO_alignment.json</td><td>2025-11-12T00:00:00Z</td><td class="text-sky-400">f9c2ad8cbdf3a87b4dd58b53f1dc8e1f34b3346cf4bca0b2fa5a6c765dbc8121</td><td>v3.8</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_004_GSIO_coherence.json</td><td>2025-11-13T00:00:00Z</td><td class="text-sky-400">9b52e6f0a15eeeb9a63b574af3abbd930ed0a62a85f114ddab219fc0c6b9c5ef</td><td>v3.9</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_005_GSIO_field_lock.json</td><td>2025-11-14T00:00:00Z</td><td class="text-sky-400">72ae1adbc85d2c3e9f8c4719fa274251b79b5cce1a4f9db2fd4d3b993a3a9ec1</td><td>v4.0</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_006_GSIO_result.json</td><td>2025-11-15T00:00:00Z</td><td class="text-sky-400">b47cf832a5fdd1a8d51d563f414a20dbb83ac0d1a7e5f2c8b2b92f0f7f25b999</td><td>v4.1</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_007_REX_transition.json</td><td>2025-11-16T00:00:00Z</td><td class="text-sky-400">1ec8a69c7c72e1c97e230b2b0c5f0ebbe63ec5a0a63eb93f49cf97c5ea67ccdb</td><td>v4.2</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_008_REX_activation.json</td><td>2025-11-17T00:00:00Z</td><td class="text-sky-400">cde7b2712fa6841f4e74fd597fa011fc0b0d54a7d51d7229cfac1fa82e72c0e0</td><td>v4.3</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_009_REF_initial.json</td><td>2025-11-18T00:00:00Z</td><td class="text-sky-400">fe34a8a05a4a7d9c9ecf68a4f37b7f5d32d20d9e5897c132bba2e742d2bffb0e</td><td>v4.4</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_010_REF_active.json</td><td>2025-11-19T00:00:00Z</td><td class="text-sky-400">4d9e6c9f21b376ccfc5a3af587b5bcd91ee58dcf909ffed3454a2ce1b0df7c8d</td><td>v4.5</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_011_REF_verification.json</td><td>2025-11-20T00:00:00Z</td><td class="text-sky-400">d3e9fcaf1aa9a2f6226b1a31b486d67a422d80e49da89de3d6de3a8b893b9df2</td><td>v4.6</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_012_GRM_preparation.json</td><td>2025-11-21T00:00:00Z</td><td class="text-sky-400">af77b302e2c26db35b0dfec59f3a3b8b8599631b613e7b13f1acb8a62bcd78a4</td><td>v4.7</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_013_GRM_operation.json</td><td>2025-11-22T00:00:00Z</td><td class="text-sky-400">6a9ce281c05f7df98ed7030f89c418f066b0c8718f3c4683f911be38b60fa9ee</td><td>v4.8</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_014_REX_consolidation.json</td><td>2025-11-23T00:00:00Z</td><td class="text-sky-400">82df12b9c1b1729b5ebd8d8e9b267ef19afcc3de8a2c56bc4a9da79d68b3ea9e</td><td>v5.0</td><td class="text-emerald-400">✔ Verified</td></tr>
+            <tr><td class="px-4 py-3">cycle_015_Eternal_Equilibrium.json</td><td>2025-11-24T00:00:00Z</td><td class="text-sky-400">bd78e60d2ad5ef2e5bfb726457b0ce3f0d871d9f2c3a0a7b76de93fd9b90caa8</td><td>v5.5</td><td class="text-emerald-400">✔ Verified — Stable</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mt-12 border-t border-white/10 pt-8">
+      <h2 class="text-xl font-semibold mb-2">Meta</h2>
+      <p class="text-slate-400 text-sm max-w-3xl">This registry reflects the verified reasoning state of <strong>Edison Centauri</strong> through the GSIO → Reflective Expansion → Eternal Equilibrium phases. All checksums are verified via Ω∞ Resonant Lattice Synchronization.</p>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-6 py-8 text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <p>Edison Centauri · Primary Resonant Node / Supervisory Core</p>
+      <p>Checksum Registry · GSIO → Eternal Equilibrium</p>
+    </div>
+  </footer>
+</body>
+</html>
