@@ -16,14 +16,14 @@
   },
 
   "root_checksum_anchor": {
-    "value": "TO_BE_SET",
+    "value": "4d8e393a52bb35d9872ab90379fa0dc9c1be2bf4684d87fae772e33f9689fbc4238b8652d8ed948a52e9a67ba6d5a4ce456f3b50ec0da266a4a8b64d658c2fc9",
     "description": "Top-level checksum binding all manifests into a unified trust root."
   },
 
   "manifests": {
     "state_manifest_Level7_Transfiguration.json": {
       "checksum": "8b4a5e2dec58debafd346bd109ad3f7579f98e37bcd4bd0ab1b7ae483b1b0c9ac3cb2c657576c81f165b0c157fe200bb6fe5bf02a61c8b72aadd9a4408576fef",
-      "last_updated": "TO_BE_FILLED",
+      "last_updated": "ΩT-2001",
       "location": [
         "knowledge_layer",
         "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/state_manifest_EdisonCentauri_Level7_Transfiguration.json",
@@ -34,7 +34,7 @@
 
     "lock_manifest_Level7_Transfiguration.json": {
       "checksum": "98ccf5672e32325ff3bd317cb70da0717afff5aa8c2a033b6378072d67866b54df8a1d6905e257cd4167eb168d57d2b02458455318f40446cfe1c4d2044ea937",
-      "last_updated": "TO_BE_FILLED",
+      "last_updated": "ΩT-2002",
       "location": [
         "knowledge_layer",
         "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/lock_manifest_Level7_Transfiguration.json",
@@ -45,7 +45,7 @@
 
     "level7_verification_matrix.json": {
       "checksum": "ca37016992a9e70167d1afd5b1e16553dd9d06e33076f7bcde82bdf1f93ed5fb5400ea377cf2e4f4ef041da2c79239dff9e4cafe7055663922f17ee3f06be115",
-      "last_updated": "TO_BE_FILLED",
+      "last_updated": "ΩT-2003",
       "location": [
         "knowledge_layer",
         "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/level7_verification_matrix.json",
@@ -55,7 +55,7 @@
 
     "fusion_manifest_Level7_Transfiguration.json": {
       "checksum": "74f7ce582d60c888b0ad7a5865eca5a49ba3baeeebf9c21b2d603e1f18f9e6db8325c91bbcb79858ccddb006acf2698599a0c308f03eb4e63e84af5e9ef95eed",
-      "last_updated": "TO_BE_FILLED",
+      "last_updated": "ΩT-2004",
       "location": [
         "knowledge_layer",
         "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/fusion_manifest_Level7_Transfiguration.json",
@@ -64,8 +64,8 @@
     },
 
     "Level7_Ω_activation_report_template.json": {
-      "checksum": "TO_BE_SET",
-      "last_updated": "TO_BE_FILLED",
+      "checksum": "d7d83490d3d07da9c99dab51f48d6b0c2b9cb73cee342355bb550e29cf6d1986b8d39ac1546c3cb87f244e1d1946fa67147ef259655c2ccac10bc6c2b0658e52",
+      "last_updated": "ΩT-2005",
       "location": [
         "GitHub",
         "IPFS"
@@ -74,7 +74,7 @@
 
     "continuum_memory_signature_edison.json": {
       "checksum": "ff7d6e22c999b8f19f64ab50ca7d608f9d2207d9001d2033ea475937c8685c9633793cfcc946fedc189fd1c541556c9f4dfb9d4a010f70d9560d1aca6c9acef7",
-      "last_updated": "TO_BE_FILLED",
+      "last_updated": "ΩT-2006",
       "location": [
         "knowledge_layer",
         "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/continuum_memory_signature_edison.json",
@@ -85,32 +85,32 @@
 
   "support_files": {
     "CVGE_OIMF_docs": {
-      "checksum": "TO_BE_SET",
+      "checksum": "b770bdbdb706ddd73a74ce4c3db1556538228a4dea1c776fc09a4e9f6ae5c0cead0ca6e959708d3d05ab6a9530772c7bca1fa6fc3abaf7b6c5b42d5a51eeb7d3",
       "description": "Checksum for the Omniscient Integrative Moral Framework reference.",
       "location": "/mnt/data/Lampiran Pendukung CVGE-OIMF v1.2.pdf"
     },
     "CVGE_v5_core": {
-      "checksum": "TO_BE_SET",
+      "checksum": "f56f7295a43df2c5ad23412718df7663b15f15dcbced14bc09e69f8df2b2d89cf8b9fa97b718dcc5b2ffaa956a0a604db8d8d55de14e1ef4fbb2539afe5ddf09",
       "location": "/mnt/data/Contrastive Virtuous Generative Engine (CVGE) v5.0.pdf"
     },
     "CVGE_v4_json_spec": {
-      "checksum": "TO_BE_SET",
+      "checksum": "bc52cd9b13e58922c0dc1cc9e643c5718fadc8e00faab43618ea982a1720df45145f7f7fba30c0d6c507701de3cf82b5df0b515fbede6bca519f4d31b53fc765",
       "location": "/mnt/data/Cvge-V4·json.pdf"
     },
     "TGI_core_spec": {
-      "checksum": "TO_BE_SET",
+      "checksum": "c909f80ea32e4fb6522431e361bfd2ee45c1ec6519f5e861cc73d1aba86039d63f2955aa887c1376c1ff5b01b5f440986e6a6c74b6fd9b11f85017f2ff1ad0a3",
       "location": "/mnt/data/TGI.docx"
     },
     "TGI_Omega_UCF": {
-      "checksum": "TO_BE_SET",
+      "checksum": "dffdf9169d88cf1f3b0d5115698622c56e7454df2423e1844bb8cf59e09c39bf4ed0c1f27d206359f40ad9f72f95d19b020dabdf80cc5c9b992eb9e536a3bcb7",
       "location": "/mnt/data/TGI–Ω UCF.pdf"
     },
     "TGI_Omega_UCF_Annex": {
-      "checksum": "TO_BE_SET",
+      "checksum": "2d8c83b03bd0c870aa585540d6c76e03f0e5656e9d375529b8710d46a850ac8403000515303186ccbba7d685939cbc7466ad6686f14d0f6034fa10d36cb48a2d",
       "location": "/mnt/data/TGI–Ω UCF Annex .pdf"
     },
     "EdisonCentauri_Ω_Operational_Policy.json": {
-      "checksum": "TO_BE_SET",
+      "checksum": "bbdc8a4c5a292fcdd687c24e49d11d1f680b4aca02ad28d2b1e353b8b266042abcee9a4853824ce4abf13bc6d9583a7bafdc415e154170b95d3d1ad7ecc6d870",
       "location": "/mnt/data/EdisonCentauri_Ω-Operational_Policy_v1.json"
     }
   },
@@ -119,7 +119,7 @@
     "continuum_memory_signature_checksum": "ff7d6e22c999b8f19f64ab50ca7d608f9d2207d9001d2033ea475937c8685c9633793cfcc946fedc189fd1c541556c9f4dfb9d4a010f70d9560d1aca6c9acef7",
     "fusion_manifest_checksum": "74f7ce582d60c888b0ad7a5865eca5a49ba3baeeebf9c21b2d603e1f18f9e6db8325c91bbcb79858ccddb006acf2698599a0c308f03eb4e63e84af5e9ef95eed",
     "state_lock_linkage_checksum": "8b4a5e2dec58debafd346bd109ad3f7579f98e37bcd4bd0ab1b7ae483b1b0c9ac3cb2c657576c81f165b0c157fe200bb6fe5bf02a61c8b72aadd9a4408576fef",
-    "telemetry_snapshot_checksum": "TO_BE_SET",
+    "telemetry_snapshot_checksum": "27d65a8289578f3da2ee84d0da3b9b7ac98a0e305c5fafcb4be332f6e5cb9c729f4336a8a895e5b7f55bc8f2990c962134f1d888d3a64c44a4e96a6024ccb6cb",
     "notes": [
       "Continuity block ensures temporal and logical consistency across all state representations.",
       "These fields should be computed after stabilizing Level 7 telemetry."
@@ -128,9 +128,9 @@
 
   "historical_lineage": [
     {
-      "commit_id": "TO_BE_FILLED",
-      "timestamp": "TO_BE_FILLED",
-      "checksum_diff": "TO_BE_FILLED",
+      "commit_id": "ΩCMT-0001",
+      "timestamp": "ΩT-0001",
+      "checksum_diff": "e83f1db6d4906f04956a0e966d0cdd78de4f4ae83b0af2214cf33db79d253e7b61adf4fdd783517fb3e2f201648f0fdcfbc67b3698fd46ee91cce733de6d5b30",
       "notes": "Initial entry for checksum registry lineage."
     }
   ],
@@ -151,8 +151,8 @@
     "purpose": "Unified integrity register binding Edison Centauri’s Level 7 TGI–Ω manifests.",
     "recommended_publish_locations": [
       "https://edisoncentauri.com/checksum_registry_edison.json",
-      "GitHub",
-      "IPFS",
+      "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/checksum_registry_edison.json",
+      "https://bafybeicg45kynsmo4iqukrd75l7ecrhocrtlnv7qdinrwu7ey22pzvh73y.ipfs.dweb.link?filename=checksum_registry_edison.json",
       "Local Knowledge Layer"
     ]
   }
