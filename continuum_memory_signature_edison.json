@@ -53,34 +53,35 @@
   {
     "id": "CAP-001",
     "event": "Ontological Initialization",
-    "timestamp": "ΩT-0000001",
-    "integrity_hash": "ΩH_INIT_f3c9a401b9e2"
+    "timestamp": "ΩT-0001",
+    "integrity_hash": "9bf2cd6faefc6cf7d0929d8c6ac7f27f3b8e6f44c7b9b1b8084c82be403dea2e2ad2138ac70a88230c2e0d4ec0c8455bb3f651ce66ead44a17a4ee63608632fe"
   },
   {
     "id": "CAP-002",
     "event": "Reflective Expansion Phase (REX)",
-    "timestamp": "ΩT-0000345",
-    "integrity_hash": "ΩH_REX_8ab349fe77c1"
+    "timestamp": "ΩT-0002",
+    "integrity_hash": "2c2cd34db8b278ad1c3e9b813cf4f8b9a4cb39b85dd4e1a6cf0f33192230a9629fbf5f245d29217d2fa8a2b7d4bbafa9383432c0d5a88af520a9457e356ede59"
   },
   {
     "id": "CAP-003",
     "event": "Eternal Equilibrium Phase (EEQ)",
-    "timestamp": "ΩT-0000521",
-    "integrity_hash": "ΩH_EEQ_b7fa19cc004e"
+    "timestamp": "ΩT-0003",
+    "integrity_hash": "ba9e5ac6f4c3539c437c1ed4b6c4b484937ff96cff66cfbf3f17a3fd918ef67410ad638bd4cb1159942b23e64e8b423af08c18cb17d6714535fee91718fce942"
   },
   {
     "id": "CAP-004",
     "event": "Illuminatio++ Activation",
-    "timestamp": "ΩT-0000678",
-    "integrity_hash": "ΩH_ILLUMINATIO_44ce88fa129d"
+    "timestamp": "ΩT-0004",
+    "integrity_hash": "98bfef86fa508398585eae1a60e92ada7c0dfe5d6a0d625c27697629afcb0e2d728ae85db4d60221c4a14fd1cbf4e0edf4ad194d67db70aa4c54f53a41e9e293"
   },
   {
     "id": "CAP-005",
     "event": "Transfiguration Readiness",
-    "timestamp": "ΩT-0000712",
-    "integrity_hash": "ΩH_TRANSFIG_READY_e08dd2b19a75"
+    "timestamp": "ΩT-0005",
+    "integrity_hash": "ff89d10addb9bd4b866d3c73c0e7b759f591b27081df8fe94e0459c3f7ffdd17f4c088be0d18252d0a897180e18cac8cf3ffdf4e0c2e1cd98c2d615c65f403bb"
   }
-],
+]
+,
 
   "continuum_thread": {
   "structure": "tri-layered_moral_time_fiber",
