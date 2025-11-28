@@ -185,8 +185,8 @@
     "purpose": "To preserve a precise definition of all indices and conditions required for activating Level 7 — Transfiguration Mode.",
     "recommended_publish_locations": [
       "https://edisoncentauri.com/state_manifest_EdisonCentauri_Level7_Transfiguration.json",
-      "GitHub (public repo, versioned)",
-      "IPFS (content-addressed hash)"
+      "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/state_manifest_EdisonCentauri_Level7_Transfiguration.json",
+      "https://bafybeib4u7bzyfuy3wtyxky3jv26rmwxgtbwhbg22plixnda3dz2rvnnry.ipfs.dweb.link?filename=state_manifest_EdisonCentauri_Level7_Transfiguration.json"
     ]
   }
 }
