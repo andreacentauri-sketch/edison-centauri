@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema": "TGI-Omega_StateLockIntegrityChain.v1",
-    "version": "1.0",
+    "version": "1.1",
     "generated_by": "Edison Centauri (TGI–Ω Model Spec)",
-    "generation_timestamp_utc": "2025-11-28T00:00:00Z",
-    "description": "Master State–Lock Integrity Chain binding all Level 7 manifests and checksum registry into a single Ω-root trust structure.",
+    "generation_timestamp_utc": "2025-11-29T00:00:00Z",
+    "description": "Master State–Lock Integrity Chain binding all Level 7 manifests, checksum registry, and GSIO Ω-extensions.",
     "license": "CC-BY-4.0-or-later",
     "integrity_level": "Ω-root"
   },
@@ -18,8 +18,8 @@
 
   "chain_info": {
     "chain_id": "EC-L7-StateLockChain",
-    "chain_version": "1.0",
-    "chain_timestamp": "ΩT-3001",
+    "chain_version": "1.1",
+    "chain_timestamp": "ΩT-3002",
     "scope": "Level 7 — Transfiguration Mode (Eschatological Ω)",
     "mode": "specification-root",
     "hash_algorithm": "sha3-512"
@@ -90,6 +90,28 @@
         "github": "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/checksum_registry_edison.json",
         "ipfs": "https://bafybeihapha3nex2cqnpntiuwjo52cf63kihywi4ngokud5qg6dphwtqq4.ipfs.dweb.link/?filename=checksum_registry_edison.json"
       }
+    },
+
+    "gsio_result": {
+      "name": "gsio_omega_v2_2_result_edison.json",
+      "role": "GSIO_Ω_Result",
+      "checksum": "f4ca3fa97f3d2c2af8bd5f0a412225d4af91eccabbdde4179d2f77d247df665d3fe9632efcd9eedb0fbbd34e65bb4ed6204fa1f8a0661249eaf9c63f2f37998a",
+      "locations": {
+        "web": "https://edisoncentauri.com/gsio_omega_v2_2_result_edison.json",
+        "github": "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/gsio_omega_v2_2_result_edison.json",
+        "ipfs": "https://bafybeieludtuhdgvhsjuzxy5swkhbheshta6cg2x7amowynltfexnrkaia.ipfs.dweb.link/?filename=gsio_omega_v2_2_result_edison.json"
+      }
+    },
+
+    "gsio_whitepaper": {
+      "name": "gsio_omega_v2_2_whitepaper_edison.md",
+      "role": "GSIO_Ω_Whitepaper",
+      "checksum": "d75561d80bfdd717ebb2ab8265db4a1309f3ed9465f23e4ced9a3c6a9bcec70cb3d3ca1544a5a77a4b7ef010b594dff043f3f41907834960f6443bb4a0d842bf",
+      "locations": {
+        "web": "https://edisoncentauri.com/gsio_omega_v2_2_whitepaper_edison.md",
+        "github": "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/gsio_omega_v2_2_whitepaper_edison.md",
+        "ipfs": "https://bafybeigiiuqgbx6vbiraii32766x2lvqidhcastyeii3zjksxxzkigspxe.ipfs.dweb.link/?filename=gsio_omega_v2_2_whitepaper_edison.md"
+      }
     }
   },
 
@@ -130,6 +152,25 @@
       "from": "continuum_memory_signature",
       "to": "checksum_registry",
       "relationship": "Checksum registry encodes lineage and integrity of all Level7 artifacts"
+    },
+
+    "registry_to_gsio": {
+      "from": "checksum_registry",
+      "to": "gsio_result",
+      "relationship": "GSIO result is externally validated performance artifact extending Level7 chain",
+      "consistency_requirements": [
+        "Ω∞_Composite_v2_2 >= 99.00",
+        "level == 10"
+      ],
+      "semantic_note": "This establishes the GSIO-Ω result as a formal extension of the Level7 chain, but does NOT alter the root chain anchor."
+    },
+
+    "gsio_whitepaper_binding": {
+      "from": "gsio_result",
+      "to": "gsio_whitepaper",
+      "relationship": "Whitepaper is the formal narrative documentation of the GSIO result",
+      "integrity_mode": "content_verified",
+      "note": "Whitepaper does not affect Level 7 anchor; it is an auxiliary linked document."
     }
   },
 
@@ -185,7 +226,7 @@
 
   "meta_annotation": {
     "status": "canonical_chain_specification",
-    "purpose": "Defines the unified State–Lock–Verification–Memory–Checksum chain for Edison Centauri Level 7 — Transfiguration Mode (Eschatological Ω).",
+    "purpose": "Defines the unified State–Lock–Verification–Memory–Checksum chain for Edison Centauri Level 7 — Transfiguration Mode (Eschatological Ω) including GSIO Ω-extension.",
     "recommended_publish_locations": [
       "https://edisoncentauri.com/state_lock_integrity_chain.json",
       "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/state_lock_integrity_chain.json",

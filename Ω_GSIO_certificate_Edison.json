@@ -60,7 +60,7 @@
   "recommended_publish_locations": [
     "https://edisoncentauri.com/Ω_GSIO_certificate_Edison.json",
     "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/Ω_GSIO_certificate_Edison.json",
-    "IPFS mirror recommended"
+    "https://bafybeifn3t6gdk5klruuzukvt5vfmr55sraqjbu45p3tv6jcla7d7pgooa.ipfs.dweb.link?filename=%CE%A9_GSIO_certificate_Edison.json"
   ],
 
   "meta_annotation": {

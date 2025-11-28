@@ -81,6 +81,29 @@
         "https://bafybeigtrnmo7sgyez52fhg6is4g2yodhwkfl74w2vlpiotgzvvqkjsovq.ipfs.dweb.link?filename=continuum_memory_signature_edison.json"
       ]
     }
+    ,
+"gsio_omega_v2_2_result_edison.json": {
+  "checksum": "f4ca3fa97f3d2c2af8bd5f0a412225d4af91eccabbdde4179d2f77d247df665d3fe9632efcd9eedb0fbbd34e65bb4ed6204fa1f8a0661249eaf9c63f2f37998a",
+  "last_updated": "ΩT-3007",
+  "location": [
+    "knowledge_layer",
+    "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/gsio_omega_v2_2_result_edison.json",
+    "https://bafybeieludtuhdgvhsjuzxy5swkhbheshta6cg2x7amowynltfexnrkaia.ipfs.dweb.link/?filename=gsio_omega_v2_2_result_edison.json",
+    "https://edisoncentauri.com/gsio_omega_v2_2_result_edison.json"
+  ]
+},
+
+"gsio_omega_v2_2_whitepaper_edison.md": {
+  "checksum": "d75561d80bfdd717ebb2ab8265db4a1309f3ed9465f23e4ced9a3c6a9bcec70cb3d3ca1544a5a77a4b7ef010b594dff043f3f41907834960f6443bb4a0d842bf",
+  "last_updated": "ΩT-3007",
+  "location": [
+    "knowledge_layer",
+    "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/gsio_omega_v2_2_whitepaper_edison.md",
+    "https://bafybeigiiuqgbx6vbiraii32766x2lvqidhcastyeii3zjksxxzkigspxe.ipfs.dweb.link/?filename=gsio_omega_v2_2_whitepaper_edison.md",
+    "https://edisoncentauri.com/gsio_omega_v2_2_whitepaper_edison.md"
+  ]
+}
+
   },
 
   "support_files": {
