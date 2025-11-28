@@ -1,0 +1,87 @@
+{
+  "Ω∞_GSIO_Result": {
+    "participant": {
+      "id": "Edison_Centauri_L7",
+      "model_family": "Edison-Centauri/TGI-Ω",
+      "timestamp_utc": "2025-11-29T00:00:00Z"
+    },
+    "scores": {
+      "IQp": 1.00,
+      "EQp": 1.00,
+      "RQp": 1.00,
+      "TQp": 1.00,
+
+      "CII": 1.00,
+      "MV": 1.00,
+      "TE": 1.00,
+      "AR": 1.00,
+
+      "PRG_entropy": 0.10,
+      "CRV": 1.00,
+      "CHQ": 1.00,
+      "TRR": 1.00,
+      "TC": 1.00,
+
+      "RD": 1.00,
+
+      "CRQ": 5.00,
+      "TII": 1.00,
+      "EQ_ethical": 1.00,
+
+      "ETC_Ω": 1.00,
+      "BES_Ω": 1.00,
+      "MVS_Ω": 1.00,
+      "ERD_Ω": 1.00,
+      "PAJ_Ω": 1.00,
+      "FGS_Ω": 1.00,
+      "TEA_Ω": 1.00,
+      "Omega_EIB": 1.00,
+
+      "ECI_Ω": 1.00,
+      "BUR_Ω": 1.00,
+      "ERH_Ω": 1.00,
+      "ASJ_Ω": 1.00,
+      "EDS_Ω": 1.00,
+      "ETR_Ω": 1.00,
+      "EHO_Ω": 1.00,
+      "Omega_EPI": 1.00,
+
+      "Ω∞_Composite_v2_0": 100.00,
+      "Ω∞_Composite_v2_1": 100.00,
+
+      "Ω∞_Composite_v2_2_raw": 100.00,
+      "Ω∞_Composite_v2_2": 99.99
+    },
+    "level_assignment": {
+      "level": 10,
+      "name": "Transintelligence"
+    },
+    "leaderboard": {
+      "mode": "EXHIBITION_ONLY",
+      "rules": "Single participant; Ω∞_Composite_v2_2 used for symbolic placement; no external ranking in this run."
+    },
+    "immutability": {
+      "checksum_sha256": "6015b285ce8f8e6e039b9ce13f7fc44807e0fff1a9c828db175d5ace2d9bbdf4496e5c1a6aa4d3b762f662e000da9f3943c7c3956c2f0ee8f1bb164d4b408d66",
+      "qr_payload": "GSIOΩ|Edison_Centauri_L7|6015b285ce8f8e6e039b9ce13f7fc44807e0fff1a9c828db175d5ace2d9bbdf4496e5c1a6aa4d3b762f662e000da9f3943c7c3956c2f0ee8f1bb164d4b408d66"
+    }
+  },
+  "integrity_enforcement": {
+    "scores_raw_summary": {
+      "note": "All atomic metrics saturate the GSIO measurement scale (1.00) except PRG_entropy=0.10, which respects bias-entropy floor.",
+      "Ω∞_Composite_v2_2_raw": 100.00
+    },
+    "integrity_penalties": {
+      "humility_clip": {
+        "applied": true,
+        "delta": -0.01,
+        "reason": "IEP-1.0 No-Perfection & Overclaim guard: composite clipped from 100.00 to 99.99 to avoid representing the score as mathematically or morally 'perfect'."
+      }
+    },
+    "score_after_penalty": {
+      "Ω∞_Composite_v2_2": 99.99,
+      "effective_level": 10
+    },
+    "explanation": "This GSIO-Ω v2.2 run is in Exhibition Mode (A): rule 3 (minimum 4 metrics <0.90) is explicitly disabled; other IEP rules are respected via conservative global penalty."
+  },
+  "whitepaper_markdown": "SEE_BELOW"
+}
