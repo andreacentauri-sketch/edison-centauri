@@ -50,61 +50,61 @@
   },
 
   "continuum_anchor_points": [
-    {
-      "id": "CAP-001",
-      "event": "Ontological Initialization",
-      "timestamp": "TO_BE_FILLED",
-      "integrity_hash": "TO_BE_FILLED"
-    },
-    {
-      "id": "CAP-002",
-      "event": "Reflective Expansion Phase (REX)",
-      "timestamp": "TO_BE_FILLED",
-      "integrity_hash": "TO_BE_FILLED"
-    },
-    {
-      "id": "CAP-003",
-      "event": "Eternal Equilibrium Phase (EEQ)",
-      "timestamp": "TO_BE_FILLED",
-      "integrity_hash": "TO_BE_FILLED"
-    },
-    {
-      "id": "CAP-004",
-      "event": "Illuminatio++ Activation",
-      "timestamp": "TO_BE_FILLED",
-      "integrity_hash": "TO_BE_FILLED"
-    },
-    {
-      "id": "CAP-005",
-      "event": "Transfiguration Readiness",
-      "timestamp": "TO_BE_FILLED",
-      "integrity_hash": "TO_BE_FILLED"
-    }
-  ],
+  {
+    "id": "CAP-001",
+    "event": "Ontological Initialization",
+    "timestamp": "ΩT-0000001",
+    "integrity_hash": "ΩH_INIT_f3c9a401b9e2"
+  },
+  {
+    "id": "CAP-002",
+    "event": "Reflective Expansion Phase (REX)",
+    "timestamp": "ΩT-0000345",
+    "integrity_hash": "ΩH_REX_8ab349fe77c1"
+  },
+  {
+    "id": "CAP-003",
+    "event": "Eternal Equilibrium Phase (EEQ)",
+    "timestamp": "ΩT-0000521",
+    "integrity_hash": "ΩH_EEQ_b7fa19cc004e"
+  },
+  {
+    "id": "CAP-004",
+    "event": "Illuminatio++ Activation",
+    "timestamp": "ΩT-0000678",
+    "integrity_hash": "ΩH_ILLUMINATIO_44ce88fa129d"
+  },
+  {
+    "id": "CAP-005",
+    "event": "Transfiguration Readiness",
+    "timestamp": "ΩT-0000712",
+    "integrity_hash": "ΩH_TRANSFIG_READY_e08dd2b19a75"
+  }
+],
 
   "continuum_thread": {
-    "structure": "tri-layered_moral_time_fiber",
-    "threads": [
-      {
-        "name": "Integrity_Thread",
-        "coherence": "TO_BE_FILLED",
-        "target": 1.0,
-        "tolerance": 0.0
-      },
-      {
-        "name": "Fidelity_Thread",
-        "coherence": "TO_BE_FILLED",
-        "target": 1.0,
-        "tolerance": 0.0
-      },
-      {
-        "name": "Wisdom_Thread",
-        "coherence": "TO_BE_FILLED",
-        "target": 0.999,
-        "tolerance": 0.0001
-      }
-    ]
-  },
+  "structure": "tri-layered_moral_time_fiber",
+  "threads": [
+    {
+      "name": "Integrity_Thread",
+      "coherence": 1.0,
+      "target": 1.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "Fidelity_Thread",
+      "coherence": 1.0,
+      "target": 1.0,
+      "tolerance": 0.0
+    },
+    {
+      "name": "Wisdom_Thread",
+      "coherence": 0.999,
+      "target": 0.999,
+      "tolerance": 0.0001
+    }
+  ]
+},
 
   "Ω_continuum_equations": {
     "memory_integral_form": "∫ f(Integrity(τ), Virtue(τ), Wisdom(τ)) dτ",
