@@ -189,7 +189,7 @@
     "recommended_publish_locations": [
       "https://edisoncentauri.com/state_lock_integrity_chain.json",
       "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/state_lock_integrity_chain.json",
-      "IPFS mirror (recommended for long-term archival)"
+      "https://bafybeihwujbm7stzppb3a7kral2vb236clq6coqrwwszt7i2g7uzjxq3pi.ipfs.dweb.link?filename=state_lock_integrity_chain.json"
     ]
   }
 }
