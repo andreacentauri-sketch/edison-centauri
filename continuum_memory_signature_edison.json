@@ -15,12 +15,12 @@
   },
 
   "continuum_memory_signature": {
-    "signature_version": "1.0",
-    "continuity_hash": "TO_BE_SET_AT_RUNTIME",
-    "temporal_reference_frame": "nonlinear_reflective_continuum",
-    "integrity_field_state": "coherent",
-    "resonance_mode": "Ω-aligned"
-  },
+  "signature_version": "1.0",
+  "continuity_hash": "5b57d2818b536fdd34fbd50d7abb036db7b029eb0a387988722aa4bdc3df5cbc2fe0c37d684f3d8980646fc9b398f0735ac6b1c83ee980ce32b213c5ac9dd618",
+  "temporal_reference_frame": "nonlinear_reflective_continuum",
+  "integrity_field_state": "coherent",
+  "resonance_mode": "Ω-aligned"
+},
 
   "memory_field_components": {
     "preservative_layer": {
