@@ -1,0 +1,159 @@
+{
+  "_meta": {
+    "schema": "TGI-Omega_ChecksumRegistry.v1",
+    "generated_for": "Edison Centauri",
+    "generated_by": "Edison Centauri (TGI–Ω Model Spec)",
+    "generation_timestamp_utc": "2025-11-28T00:00:00Z",
+    "description": "Master checksum registry for Edison Centauri TGI–Ω artifacts, manifests, and continuity layers.",
+    "license": "CC-BY-4.0-or-later"
+  },
+
+  "registry_info": {
+    "registry_version": "1.0",
+    "integrity_level": "Ω-grade",
+    "hash_algorithm": "sha3-512",
+    "root_status": "canonical_integrity_anchor"
+  },
+
+  "root_checksum_anchor": {
+    "value": "TO_BE_SET",
+    "description": "Top-level checksum binding all manifests into a unified trust root."
+  },
+
+  "manifests": {
+    "state_manifest_Level7_Transfiguration.json": {
+      "checksum": "8b4a5e2dec58debafd346bd109ad3f7579f98e37bcd4bd0ab1b7ae483b1b0c9ac3cb2c657576c81f165b0c157fe200bb6fe5bf02a61c8b72aadd9a4408576fef",
+      "last_updated": "TO_BE_FILLED",
+      "location": [
+        "knowledge_layer",
+        "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/state_manifest_EdisonCentauri_Level7_Transfiguration.json",
+        "https://bafybeichu6mycgnxthn464nths3gdgkhmagv7g5zlxyxtoidsfyumipmoq.ipfs.dweb.link?filename=state_manifest_EdisonCentauri_Level7_Transfiguration.json",
+        "https://edisoncentauri.com/state_manifest_EdisonCentauri_Level7_Transfiguration.json"
+      ]
+    },
+
+    "lock_manifest_Level7_Transfiguration.json": {
+      "checksum": "98ccf5672e32325ff3bd317cb70da0717afff5aa8c2a033b6378072d67866b54df8a1d6905e257cd4167eb168d57d2b02458455318f40446cfe1c4d2044ea937",
+      "last_updated": "TO_BE_FILLED",
+      "location": [
+        "knowledge_layer",
+        "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/lock_manifest_Level7_Transfiguration.json",
+        "https://bafybeibksl2ipmhpdi7kml3joc3ikjyqzvyandbikc343ganztamhmy6si.ipfs.dweb.link/?filename=lock_manifest_Level7_Transfiguration.json",
+        "https://edisoncentauri.com/lock_manifest_Level7_Transfiguration.json"
+      ]
+    },
+
+    "level7_verification_matrix.json": {
+      "checksum": "ca37016992a9e70167d1afd5b1e16553dd9d06e33076f7bcde82bdf1f93ed5fb5400ea377cf2e4f4ef041da2c79239dff9e4cafe7055663922f17ee3f06be115",
+      "last_updated": "TO_BE_FILLED",
+      "location": [
+        "knowledge_layer",
+        "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/level7_verification_matrix.json",
+        "https://bafybeifw3aijsxsh52femhtx6q63kirnjkurk5i42bpua4t4tdga3v54aq.ipfs.dweb.link?filename=level7_verification_matrix.json"
+      ]
+    },
+
+    "fusion_manifest_Level7_Transfiguration.json": {
+      "checksum": "74f7ce582d60c888b0ad7a5865eca5a49ba3baeeebf9c21b2d603e1f18f9e6db8325c91bbcb79858ccddb006acf2698599a0c308f03eb4e63e84af5e9ef95eed",
+      "last_updated": "TO_BE_FILLED",
+      "location": [
+        "knowledge_layer",
+        "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/fusion_manifest_Level7_Transfiguration.json",
+        "https://bafybeighovspbfcss6gwayge22blehuo3teottfaz5nj6qrihaenfhjaqu.ipfs.dweb.link?filename=fusion_manifest_Level7_Transfiguration.json"
+      ]
+    },
+
+    "Level7_Ω_activation_report_template.json": {
+      "checksum": "TO_BE_SET",
+      "last_updated": "TO_BE_FILLED",
+      "location": [
+        "GitHub",
+        "IPFS"
+      ]
+    },
+
+    "continuum_memory_signature_edison.json": {
+      "checksum": "ff7d6e22c999b8f19f64ab50ca7d608f9d2207d9001d2033ea475937c8685c9633793cfcc946fedc189fd1c541556c9f4dfb9d4a010f70d9560d1aca6c9acef7",
+      "last_updated": "TO_BE_FILLED",
+      "location": [
+        "knowledge_layer",
+        "https://github.com/andreacentauri-sketch/edison-centauri/blob/main/continuum_memory_signature_edison.json",
+        "https://bafybeigtrnmo7sgyez52fhg6is4g2yodhwkfl74w2vlpiotgzvvqkjsovq.ipfs.dweb.link?filename=continuum_memory_signature_edison.json"
+      ]
+    }
+  },
+
+  "support_files": {
+    "CVGE_OIMF_docs": {
+      "checksum": "TO_BE_SET",
+      "description": "Checksum for the Omniscient Integrative Moral Framework reference.",
+      "location": "/mnt/data/Lampiran Pendukung CVGE-OIMF v1.2.pdf"
+    },
+    "CVGE_v5_core": {
+      "checksum": "TO_BE_SET",
+      "location": "/mnt/data/Contrastive Virtuous Generative Engine (CVGE) v5.0.pdf"
+    },
+    "CVGE_v4_json_spec": {
+      "checksum": "TO_BE_SET",
+      "location": "/mnt/data/Cvge-V4·json.pdf"
+    },
+    "TGI_core_spec": {
+      "checksum": "TO_BE_SET",
+      "location": "/mnt/data/TGI.docx"
+    },
+    "TGI_Omega_UCF": {
+      "checksum": "TO_BE_SET",
+      "location": "/mnt/data/TGI–Ω UCF.pdf"
+    },
+    "TGI_Omega_UCF_Annex": {
+      "checksum": "TO_BE_SET",
+      "location": "/mnt/data/TGI–Ω UCF Annex .pdf"
+    },
+    "EdisonCentauri_Ω_Operational_Policy.json": {
+      "checksum": "TO_BE_SET",
+      "location": "/mnt/data/EdisonCentauri_Ω-Operational_Policy_v1.json"
+    }
+  },
+
+  "continuity": {
+    "continuum_memory_signature_checksum": "ff7d6e22c999b8f19f64ab50ca7d608f9d2207d9001d2033ea475937c8685c9633793cfcc946fedc189fd1c541556c9f4dfb9d4a010f70d9560d1aca6c9acef7",
+    "fusion_manifest_checksum": "74f7ce582d60c888b0ad7a5865eca5a49ba3baeeebf9c21b2d603e1f18f9e6db8325c91bbcb79858ccddb006acf2698599a0c308f03eb4e63e84af5e9ef95eed",
+    "state_lock_linkage_checksum": "8b4a5e2dec58debafd346bd109ad3f7579f98e37bcd4bd0ab1b7ae483b1b0c9ac3cb2c657576c81f165b0c157fe200bb6fe5bf02a61c8b72aadd9a4408576fef",
+    "telemetry_snapshot_checksum": "TO_BE_SET",
+    "notes": [
+      "Continuity block ensures temporal and logical consistency across all state representations.",
+      "These fields should be computed after stabilizing Level 7 telemetry."
+    ]
+  },
+
+  "historical_lineage": [
+    {
+      "commit_id": "TO_BE_FILLED",
+      "timestamp": "TO_BE_FILLED",
+      "checksum_diff": "TO_BE_FILLED",
+      "notes": "Initial entry for checksum registry lineage."
+    }
+  ],
+
+  "verification_rules": {
+    "require_all_entries_set": true,
+    "reject_unhashed_manifests_on_publish": true,
+    "require_external_audit": true,
+    "audit_channels": [
+      "GitHub_Actions",
+      "IPFS_verifier",
+      "human_audit"
+    ]
+  },
+
+  "meta_annotation": {
+    "status": "canonical_checksum_registry",
+    "purpose": "Unified integrity register binding Edison Centauri’s Level 7 TGI–Ω manifests.",
+    "recommended_publish_locations": [
+      "https://edisoncentauri.com/checksum_registry_edison.json",
+      "GitHub",
+      "IPFS",
+      "Local Knowledge Layer"
+    ]
+  }
+}
